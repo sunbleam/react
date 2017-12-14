@@ -1,0 +1,26 @@
+nav {
+  width: 50%;
+  height: .35rem;
+  margin: 0 auto;
+}
+
+.main .tab-bar {
+  width: 100%;
+  height: .35rem;
+  background: #fff;
+  overflow-x: scroll;
+  border-bottom: .01rem solid #eee;
+}
+
+.main .tab-bar .tab-list {
+  width: 120%;
+}
+
+.main .tab-bar .tab-list span {
+  font-size: .12rem;
+}
+
+.main .tab-bar .tab-list span.tab-active {
+  background: #ffa28b;
+  color: #fff;
+}

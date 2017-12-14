@@ -1,0 +1,52 @@
+.list {
+  width: 100%;
+  background: #fff;
+  margin-bottom: .1rem;
+}
+
+.list .list-title {
+  width: 100%;
+  height: .5rem;
+  line-height: .5rem;
+  text-indent: .1rem;
+}
+
+.list .list-title img {
+  width: .26rem;
+  height: .26rem;
+  vertical-align: middle;
+}
+
+.list .list-title span {
+  margin-left: .05rem;
+  font-size: .16rem;
+}
+
+.list .list-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list .list-content dl {
+  flex-basis: 45%;
+  box-sizing: border-box;
+}
+
+.list .list-content dl dt {
+  border-radius: .05rem;
+  overflow: hidden;
+}
+
+.list .list-content dl dt img {
+  width: 100%;
+}
+
+.list .list-content dl dd p {
+  line-height: .25rem;
+}
+
+.list .list-content dl dd p:nth-of-type(2) {
+  color: #a3a3a3;
+}
